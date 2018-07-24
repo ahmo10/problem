@@ -1,6 +1,6 @@
 from flask import Flask,jsonify
 from flask_restplus import Resource, Api,fields,Namespace
-from create_app import create_app
+
 
 app = create_app('development')
 api = Api(prefix='/api/v1')
